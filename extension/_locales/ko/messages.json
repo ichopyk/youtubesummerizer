@@ -1,0 +1,19 @@
+{
+  "appName": { "message": "Pro YouTube Summarizer" },
+  "appDescription": { "message": "자막을 기반으로 AI를 사용하여 모든 YouTube 동영상의 요약을 즉시 생성합니다." },
+  "tabGenerator": { "message": "생성기" },
+  "tabHistory": { "message": "기록" },
+  "tabAbout": { "message": "정보" },
+  "videoSummaryTitle": { "message": "동영상 요약" },
+  "optionShort": { "message": "짧게" },
+  "optionMedium": { "message": "중간" },
+  "optionDetailed": { "message": "상세하게" },
+  "createSummaryButton": { "message": "요약 생성" },
+  "copyButtonTitle": { "message": "복사" },
+  "shareButtonTitle": { "message": "공유" },
+  "copiedAlert": { "message": "요약이 복사되었습니다!" },
+  "historyTitle": { "message": "요약 기록" },
+  "historyEmpty": { "message": "기록이 아직 비어 있습니다." },
+  "errorYoutubePage": { "message": "YouTube에서 동영상 페이지를 열어주세요." },
+  "errorNoSubtitles": { "message": "오류: 자막을 찾을 수 없습니다. 플레이어에서 자막을 활성화하거나 페이지를 새로고침하세요." }
+}

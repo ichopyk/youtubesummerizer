@@ -1,0 +1,19 @@
+{
+  "appName": { "message": "Pro YouTube Summarizer" },
+  "appDescription": { "message": "Cria instantaneamente um resumo de qualquer vídeo do YouTube usando IA com base em suas legendas." },
+  "tabGenerator": { "message": "Gerador" },
+  "tabHistory": { "message": "Histórico" },
+  "tabAbout": { "message": "Sobre" },
+  "videoSummaryTitle": { "message": "Resumo do Vídeo" },
+  "optionShort": { "message": "Curto" },
+  "optionMedium": { "message": "Médio" },
+  "optionDetailed": { "message": "Detalhado" },
+  "createSummaryButton": { "message": "Criar Resumo" },
+  "copyButtonTitle": { "message": "Copiar" },
+  "shareButtonTitle": { "message": "Compartilhar" },
+  "copiedAlert": { "message": "Resumo copiado!" },
+  "historyTitle": { "message": "Histórico de Resumos" },
+  "historyEmpty": { "message": "O histórico ainda está vazio." },
+  "errorYoutubePage": { "message": "Por favor, abra uma página de vídeo no YouTube." },
+  "errorNoSubtitles": { "message": "ERRO: Legendas não encontradas. Por favor, ative-as no player e/ou recarregue a página." }
+}

@@ -1,0 +1,19 @@
+{
+  "appName": { "message": "Pro YouTube Summarizer" },
+  "appDescription": { "message": "Erstellt sofort eine Zusammenfassung eines beliebigen YouTube-Videos mithilfe von KI basierend auf dessen Untertiteln." },
+  "tabGenerator": { "message": "Generator" },
+  "tabHistory": { "message": "Verlauf" },
+  "tabAbout": { "message": "Über" },
+  "videoSummaryTitle": { "message": "Video-Zusammenfassung" },
+  "optionShort": { "message": "Kurz" },
+  "optionMedium": { "message": "Mittel" },
+  "optionDetailed": { "message": "Detailliert" },
+  "createSummaryButton": { "message": "Zusammenfassung erstellen" },
+  "copyButtonTitle": { "message": "Kopieren" },
+  "shareButtonTitle": { "message": "Teilen" },
+  "copiedAlert": { "message": "Zusammenfassung kopiert!" },
+  "historyTitle": { "message": "Verlauf der Zusammenfassungen" },
+  "historyEmpty": { "message": "Der Verlauf ist noch leer." },
+  "errorYoutubePage": { "message": "Bitte öffnen Sie eine Videoseite auf YouTube." },
+  "errorNoSubtitles": { "message": "FEHLER: Untertitel nicht gefunden. Bitte aktivieren Sie sie im Player und/oder laden Sie die Seite neu." }
+}

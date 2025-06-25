@@ -1,0 +1,19 @@
+{
+  "appName": { "message": "Pro YouTube Summarizer" },
+  "appDescription": { "message": "Створює короткий опис YouTube відео, автоматично знаходячи субтитри." },
+  "tabGenerator": { "message": "Генератор" },
+  "tabHistory": { "message": "Історія" },
+  "tabAbout": { "message": "Про застосунок" },
+  "videoSummaryTitle": { "message": "Опис відео" },
+  "optionShort": { "message": "Коротко" },
+  "optionMedium": { "message": "Середньо" },
+  "optionDetailed": { "message": "Детально" },
+  "createSummaryButton": { "message": "Створити опис" },
+  "copyButtonTitle": { "message": "Копіювати" },
+  "shareButtonTitle": { "message": "Поділитись" },
+  "copiedAlert": { "message": "Опис скопійовано!" },
+  "historyTitle": { "message": "Історія описів" },
+  "historyEmpty": { "message": "Історія поки що порожня." },
+  "errorYoutubePage": { "message": "Будь ласка, відкрийте сторінку з відео на YouTube." },
+  "errorNoSubtitles": { "message": "ПОМИЛКА: Субтитри не знайдено. Увімкніть їх у плеєрі та/або оновіть сторінку." }
+}

@@ -1,0 +1,19 @@
+{
+  "appName": { "message": "Pro YouTube Summarizer" },
+  "appDescription": { "message": "Crea instantáneamente un resumen de cualquier video de YouTube usando IA basado en sus subtítulos." },
+  "tabGenerator": { "message": "Generador" },
+  "tabHistory": { "message": "Historial" },
+  "tabAbout": { "message": "Acerca de" },
+  "videoSummaryTitle": { "message": "Resumen del video" },
+  "optionShort": { "message": "Corto" },
+  "optionMedium": { "message": "Medio" },
+  "optionDetailed": { "message": "Detallado" },
+  "createSummaryButton": { "message": "Crear resumen" },
+  "copyButtonTitle": { "message": "Copiar" },
+  "shareButtonTitle": { "message": "Compartir" },
+  "copiedAlert": { "message": "¡Resumen copiado!" },
+  "historyTitle": { "message": "Historial de resúmenes" },
+  "historyEmpty": { "message": "El historial está vacío." },
+  "errorYoutubePage": { "message": "Por favor, abra una página de video en YouTube." },
+  "errorNoSubtitles": { "message": "ERROR: No se encontraron subtítulos. Por favor, actívelos en el reproductor y/o actualice la página." }
+}

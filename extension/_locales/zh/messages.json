@@ -1,0 +1,19 @@
+{
+  "appName": { "message": "Pro YouTube Summarizer" },
+  "appDescription": { "message": "根据字幕使用人工智能即时创建任何YouTube视频的摘要。" },
+  "tabGenerator": { "message": "生成器" },
+  "tabHistory": { "message": "历史记录" },
+  "tabAbout": { "message": "关于" },
+  "videoSummaryTitle": { "message": "视频摘要" },
+  "optionShort": { "message": "简短" },
+  "optionMedium": { "message": "中等" },
+  "optionDetailed": { "message": "详细" },
+  "createSummaryButton": { "message": "创建摘要" },
+  "copyButtonTitle": { "message": "复制" },
+  "shareButtonTitle": { "message": "分享" },
+  "copiedAlert": { "message": "摘要已复制！" },
+  "historyTitle": { "message": "摘要历史" },
+  "historyEmpty": { "message": "历史记录为空。" },
+  "errorYoutubePage": { "message": "请在YouTube上打开一个视频页面。" },
+  "errorNoSubtitles": { "message": "错误：未找到字幕。请在播放器中启用字幕和/或刷新页面。" }
+}

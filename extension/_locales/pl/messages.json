@@ -1,0 +1,19 @@
+{
+  "appName": { "message": "Pro YouTube Summarizer" },
+  "appDescription": { "message": "Błyskawicznie tworzy streszczenie dowolnego filmu na YouTube przy użyciu AI na podstawie jego napisów." },
+  "tabGenerator": { "message": "Generator" },
+  "tabHistory": { "message": "Historia" },
+  "tabAbout": { "message": "O aplikacji" },
+  "videoSummaryTitle": { "message": "Streszczenie wideo" },
+  "optionShort": { "message": "Krótkie" },
+  "optionMedium": { "message": "Średnie" },
+  "optionDetailed": { "message": "Szczegółowe" },
+  "createSummaryButton": { "message": "Utwórz streszczenie" },
+  "copyButtonTitle": { "message": "Kopiuj" },
+  "shareButtonTitle": { "message": "Udostępnij" },
+  "copiedAlert": { "message": "Streszczenie skopiowane!" },
+  "historyTitle": { "message": "Historia streszczeń" },
+  "historyEmpty": { "message": "Historia jest jeszcze pusta." },
+  "errorYoutubePage": { "message": "Proszę otworzyć stronę z filmem na YouTube." },
+  "errorNoSubtitles": { "message": "BŁĄD: Nie znaleziono napisów. Włącz je w odtwarzaczu i/lub odśwież stronę." }
+}

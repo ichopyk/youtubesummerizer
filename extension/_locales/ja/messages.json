@@ -1,0 +1,19 @@
+{
+  "appName": { "message": "Pro YouTube Summarizer" },
+  "appDescription": { "message": "字幕を基にAIを使用して、任何のYouTube動画の要約を即座に作成します。" },
+  "tabGenerator": { "message": "ジェネレーター" },
+  "tabHistory": { "message": "履歴" },
+  "tabAbout": { "message": "概要" },
+  "videoSummaryTitle": { "message": "動画の要約" },
+  "optionShort": { "message": "短く" },
+  "optionMedium": { "message": "普通" },
+  "optionDetailed": { "message": "詳細" },
+  "createSummaryButton": { "message": "要約を作成" },
+  "copyButtonTitle": { "message": "コピー" },
+  "shareButtonTitle": { "message": "共有" },
+  "copiedAlert": { "message": "要約がコピーされました！" },
+  "historyTitle": { "message": "要約の履歴" },
+  "historyEmpty": { "message": "履歴はまだ空です。" },
+  "errorYoutubePage": { "message": "YouTubeで動画ページを開いてください。" },
+  "errorNoSubtitles": { "message": "エラー：字幕が見つかりません。プレーヤーで字幕を有効にするか、ページを再読み込みしてください。" }
+}

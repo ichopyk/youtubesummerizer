@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>YouTube Summarizer</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+  <link rel="stylesheet" href="popup.css">
+  <link rel="stylesheet" href="flag-icons.min.css">
+</head>
+<body>
+
+<div class="app-container">
+    <nav class="nav-tabs">
+        <button class="nav-btn active" data-tab="generator" data-i18n="tabGenerator">Генератор</button>
+        <button class="nav-btn" data-tab="history" data-i18n="tabHistory">Історія</button>
+        <button class="nav-btn" data-tab="about" data-i18n="tabAbout">Про застосунок</button>
+    </nav>
+
+    <div class="content-wrapper">
+        <div id="generator" class="tab-content active">
+            <header class="app-header">
+                <div class="header-top">
+                    <h1 data-i18n="videoSummaryTitle">Опис відео</h1>
+                    <button id="theme-toggle-btn" title="Змінити тему">🌙</button>
+                </div>
+                <div class="summary-options">
+                    <button class="option-btn active" data-length="короткий" data-i18n="optionShort">Коротко</button>
+                    <button class="option-btn" data-length="середній" data-i18n="optionMedium">Середньо</button>
+                    <button class="option-btn" data-length="детальний" data-i18n="optionDetailed">Детально</button>
+                </div>
+                <div class="controls-main">
+                    <div class="custom-select-wrapper">
+                        <div class="custom-select" id="language-select"><div class="select-trigger"></div><div class="custom-options"></div></div>
+                    </div>
+                    <button id="summarize-btn" data-i18n="createSummaryButton">Створити опис</button>
+                </div>
+                <div class="actions-toolbar hidden" id="actions-toolbar">
+                    <button id="copy-btn" data-i18n-title="copyButtonTitle"><i class="fas fa-copy"></i> <span data-i18n="copyButtonTitle">Копіювати</span></button>
+                    <button id="share-btn" class="share-trigger-btn" data-i18n-title="shareButtonTitle"><i class="fas fa-share-alt"></i> <span data-i18n="shareButtonTitle">Поділитись</span></button>
+                </div>
+            </header>
+            <main class="result-area">
+                <div class="spinner-container hidden" id="loading-spinner"><div class="spinner"></div></div>
+                <p id="summary-text"></p>
+            </main>
+        </div>
+        <div id="history" class="tab-content">
+            <header class="app-header">
+                <h2 data-i18n="historyTitle">Історія описів</h2>
+            </header>
+            <main class="result-area">
+                <div id="history-list"></div>
+            </main>
+        </div>
+        <div id="about" class="tab-content">
+             <header class="app-header">
+                <h2>Про застосунок</h2>
+            </header>
+            <main class="result-area">
+                <div class="about-content">
+                    <h3>Дякую, що користуєтесь!</h3>
+                    <p>Цей застосунок був створений з любов'ю, щоб зробити ваше життя трохи простішим.</p>
+                    <p>Якщо вам подобається моя робота і ви хотіли б підтримати подальший розвиток, ви можете "пригостити мене кавою" ☕.</p>
+                    <button id="donate-btn" class="donate-button">
+                        <i class="fas fa-heart"></i> Підтримати автора
+                    </button>
+                </div>
+            </main>
+        </div>
+    </div>
+</div>
+
+<div id="share-menu" class="share-popup hidden">
+    <a href="#" class="share-link" data-network="twitter" target="_blank" title="Поділитись у Twitter"><i class="fab fa-twitter"></i></a>
+    <a href="#" class="share-link" data-network="facebook" target="_blank" title="Поділитись у Facebook"><i class="fab fa-facebook"></i></a>
+    <a href="#" class="share-link" data-network="telegram" target="_blank" title="Поділитись у Telegram"><i class="fab fa-telegram"></i></a>
+</div>
+
+<script src="popup.js"></script>
+</body>
+</html>

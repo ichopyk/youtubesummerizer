@@ -1,0 +1,19 @@
+{
+  "appName": { "message": "Pro YouTube Summarizer" },
+  "appDescription": { "message": "Instantly creates a summary of any YouTube video using AI based on its subtitles." },
+  "tabGenerator": { "message": "Generator" },
+  "tabHistory": { "message": "History" },
+  "tabAbout": { "message": "About" },
+  "videoSummaryTitle": { "message": "Video Summary" },
+  "optionShort": { "message": "Short" },
+  "optionMedium": { "message": "Medium" },
+  "optionDetailed": { "message": "Detailed" },
+  "createSummaryButton": { "message": "Create Summary" },
+  "copyButtonTitle": { "message": "Copy" },
+  "shareButtonTitle": { "message": "Share" },
+  "copiedAlert": { "message": "Summary copied!" },
+  "historyTitle": { "message": "Summary History" },
+  "historyEmpty": { "message": "History is empty yet." },
+  "errorYoutubePage": { "message": "Please open a video page on YouTube." },
+  "errorNoSubtitles": { "message": "ERROR: Subtitles not found. Please enable them in the player and/or reload the page." }
+}
